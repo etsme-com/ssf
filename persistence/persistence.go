@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/etsme-com/ssf/v2/base/config"
-	"github.com/etsme-com/ssf/v2/define"
-	"github.com/etsme-com/ssf/v2/logger"
+	"github.com/etsme-com/ssf/base/config"
+	"github.com/etsme-com/ssf/define"
+	"github.com/etsme-com/ssf/logger"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )

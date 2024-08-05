@@ -1,8 +1,8 @@
 package ssf
 
 import (
-	"github.com/etsme-com/ssf/v2/base/config"
-	"github.com/etsme-com/ssf/v2/logger"
+	"github.com/etsme-com/ssf/base/config"
+	"github.com/etsme-com/ssf/logger"
 )
 
 // SSFVersion 微服务框架版本

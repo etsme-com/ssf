@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	rotatelogs "github.com/etsme-com/file-rotatelogs"
-	"github.com/etsme-com/ssf/v2/base/config"
+	"github.com/etsme-com/ssf/base/config"
 	log "github.com/sirupsen/logrus"
 )
 

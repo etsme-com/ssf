@@ -1,4 +1,4 @@
-module github.com/etsme-com/ssf/v2
+module github.com/etsme-com/ssf
 
 go 1.18
 

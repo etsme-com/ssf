@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/etsme-com/ssf/v2/base/config"
-	"github.com/etsme-com/ssf/v2/define"
-	"github.com/etsme-com/ssf/v2/logger"
-	"github.com/etsme-com/ssf/v2/persistence"
+	"github.com/etsme-com/ssf/base/config"
+	"github.com/etsme-com/ssf/define"
+	"github.com/etsme-com/ssf/logger"
+	"github.com/etsme-com/ssf/persistence"
 	"github.com/sirupsen/logrus"
 )
 

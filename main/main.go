@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/etsme-com/ssf/v2/base/envcfg"
+	"github.com/etsme-com/ssf/base/envcfg"
 	"time"
 )
 
