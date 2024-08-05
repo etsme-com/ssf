@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/base/envcfg"
+	"github.com/etsme-com/ssf/v2/base/envcfg"
 	"time"
 )
 

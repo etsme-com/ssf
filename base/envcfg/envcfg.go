@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/etsme-com/ssf/v2/base/config"
+	"github.com/etsme-com/ssf/v2/define"
+	"github.com/etsme-com/ssf/v2/logger"
+	"github.com/etsme-com/ssf/v2/persistence"
 	"github.com/sirupsen/logrus"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/base/config"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/define"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/logger"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/persistence"
 )
 
 // Cenvcfg 保存系统环境配置

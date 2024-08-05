@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
+	rotatelogs "github.com/etsme-com/file-rotatelogs"
+	"github.com/etsme-com/ssf/v2/base/config"
 	log "github.com/sirupsen/logrus"
-	rotatelogs "gitlab.etsme.com/cmcc-stable-lc/osware/ssf/file-rotatelogs"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/base/config"
 )
 
 var logger = log.New()

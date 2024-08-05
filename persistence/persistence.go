@@ -12,16 +12,16 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/etsme-com/ssf/v2/base/config"
+	"github.com/etsme-com/ssf/v2/define"
+	"github.com/etsme-com/ssf/v2/logger"
 	"github.com/sirupsen/logrus"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/base/config"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/define"
-	"gitlab.etsme.com/cmcc-stable-lc/osware/ssf/ssf/v2/logger"
 	"gopkg.in/yaml.v2"
 )
 
 var persistenceLogger = logger.Logger.WithFields(logrus.Fields{"module": "persistence"})
 
-////////////////// data persistence //////////////////
+// //////////////// data persistence //////////////////
 // 持久化模式
 var (
 	NeverLostPersistence        = 0 // 永不丢失，		EMMC
